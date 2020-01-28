@@ -11,7 +11,7 @@ import com.cognizant.fms.loginservice.model.Message;
 import reactor.core.publisher.Mono;
 
 @RestController
-public class ResourceREST {
+public class ResourceController {
 	
 	@RequestMapping(value = "/resource/user", method = RequestMethod.GET)
 	@PreAuthorize("hasRole('USER')")
