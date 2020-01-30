@@ -14,7 +14,7 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 import static org.springframework.web.reactive.function.server.RequestPredicates.POST;
 import static org.springframework.web.reactive.function.server.RequestPredicates.accept;
 
-@Configuration
+//@Configuration
 public class RouterConfig {
 
 	@Bean
